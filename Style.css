@@ -1,0 +1,134 @@
+body{
+background-color:#737373;
+display:flex;
+-webkit-flex-direction: column;
+-ms-flex-direction: column;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.guitar{
+  height:100px;
+  width: 100px;
+  position:absolute;
+  top:1%;
+  left:1.5%;
+  transition: 3s;
+  background-image:url(изображения/иконка.png);
+  background-position: center;
+  background-size:100px auto;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px 1px rgb(0, 0, 0);
+  border-radius: 100px;
+  cursor:default;
+}
+
+.gtext{
+  margin-top: 75px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 0.5px 0px rgb(218, 218, 218);
+  font-family:'Schoolbell', cursive;
+  box-sizing: 60px;
+  transition: 2s;
+}
+
+.gtext:hover{
+  text-shadow: 0 0 10px white;
+  transition: 2s;
+
+}
+
+.guitar:hover{
+  box-shadow: 1px 1px 10px rgb(255, 230, 0);
+  transition: 2s;
+
+}
+
+.background{
+  background-color: white;
+  position: absolute;
+  width:70%;
+  height:150%;
+  margin-top: 40%;
+  transition: 3s;
+  box-shadow:0 0 100px;
+
+}
+.header{
+  background-color: rgb(196, 215, 133);
+  width:70% ;
+  height:8% ;
+  display: flex;
+  border:8px;
+  border-color: white;
+  border-radius: 5px;
+  visibility: ;
+  padding: 35px;
+  box-shadow: 6px 9px 6px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  opacity: 0.95;
+  transition: 3s;
+  position:absolute;
+  margin-top: 90px;
+  flex: 0 1 200px;
+  text-align: center;
+
+
+
+}
+
+.str{
+  border:solid rgb(255, 14, 208);
+}
+
+.header:hover{
+  visibility:visible;
+}
+
+div.button1, div.button2, div.button3, div.button4{
+
+  width:auto;
+  height: 60px;
+  border:solid 5px;
+  border-radius: 8px;
+  background-color:rgba(255, 139, 32, 0.84);
+  border-left-color: rgba(255, 139, 32, 0.84);
+  border-right-color:rgba(255, 122, 0, 1) ;
+  border-top-color:rgba(255, 139, 32, 0.84) ;
+  border-bottom-color:rgba(255, 122, 0, 1);
+  line-height: 60px;
+  transition: 3s;
+  flex: 1 1 200px;
+  margin: 3px;
+
+
+
+
+}
+
+a.button1, a.button2, a.button3, a.button4{
+  text-decoration: none;
+  color: white;
+  padding:30px;
+  font-size: 25px;
+  font-family:'Schoolbell', cursive;
+  font-weight: bolder;
+  text-align: center;
+  transition: 3s;
+  flex: 0 1 200px;
+}
+
+div.button1:hover, div.button2:hover, div.button3:hover, div.button4:hover{
+box-shadow: 5px 5px 1px rgba(255, 130, 0, 0.84);
+transition: 0.2s;
+transform: translateX(-5px) translateY(-5px);
+}
+
+.footer{
+  flex:0 0 auto;
+}
